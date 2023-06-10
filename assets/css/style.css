@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Aukim Light';
+    src: url(../fonts/AukimLight.otf);
+}
+
+@font-face {
+    font-family: 'Aukim Extra Bold';
+    src: url(../fonts/AukimExtraBold.otf);
+}
+
+h1 { 
+    font-family: 'Aukim Light', sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+h2 {
+    font-family: 'Aukim Extra Bold', sans-serif;
+}
+
+p {
+    font-family: 'Aukim Light', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
