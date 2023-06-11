@@ -1,2 +1,1 @@
-# site-margarette-perinelli
-# site-margarette-perinelli
+Site profissional da hipnoterapeuta Margarette Perinelli, desenvolvido atualmente com HTML e CSS.
