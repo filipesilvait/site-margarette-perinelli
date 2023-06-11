@@ -15,6 +15,8 @@
 
 body {
     background-color: #D6DCD8;
+    text-align: center;
+    color: #402232;
 }
 
 h1 { 
@@ -25,6 +27,7 @@ h1 {
 
 h2 {
     font-family: 'Aukim Extra Bold', sans-serif;
+    color: #926F34;
 }
 
 p {
@@ -40,8 +43,8 @@ p {
 }
 
 .logo-header {
-    width: 10%;
-    height: 10%;
+    width: 17%;
+    height: 17%;
 }
 
 img {
@@ -58,6 +61,38 @@ button {
     border: none;
     cursor: pointer;
     font-size: 16px;
-    padding: 15px 60px;
+    padding: 15px 40px;
     color: #D6DCD8;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #926F34;
+    font-size: 3rem;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+.redes-sociais, .copyright {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
 }
