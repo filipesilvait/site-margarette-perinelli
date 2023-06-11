@@ -13,6 +13,10 @@
     src: url(../fonts/AukimExtraBold.otf);
 }
 
+body {
+    background-color: #D6DCD8;
+}
+
 h1 { 
     font-family: 'Aukim Light', sans-serif;
     font-weight: bold;
@@ -29,6 +33,17 @@ p {
     font-size: 21px;
 }
 
+.flex {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-header {
+    width: 10%;
+    height: 10%;
+}
+
 img {
     max-width: 100%;
     max-height: 100%;
@@ -37,7 +52,12 @@ img {
     object-fit: contain;
 }
 
-.flex {
-    display: flex;
-    justify-content: space-around;
+button {
+    border-radius: 30px;
+    background-color: #402232;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px 60px;
+    color: #D6DCD8;
 }
