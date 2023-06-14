@@ -19,6 +19,11 @@ body {
     color: #402232;
 }
 
+main {
+    background-color: #402232;
+    color: #D6DCD8;
+}
+
 h1 { 
     font-family: 'Aukim Light', sans-serif;
     font-weight: bold;
@@ -29,6 +34,9 @@ h1 {
 h2 {
     font-family: 'Aukim Extra Bold', sans-serif;
     color: #926F34;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
 }
 
 p {
@@ -78,12 +86,19 @@ img {
 button {
     border-radius: 30px;
     background-color: #402232;
+    color: #D6DCD8;
     border: none;
     cursor: pointer;
     font-size: 16px;
     padding: 15px 40px;
-    color: #D6DCD8;
     margin: 1px;
+}
+
+.btn-2 {
+    background-color: #D6DCD8;
+    color: #402232;
+    font-weight: bold;
+    margin: 20px;
 }
 
 footer {
