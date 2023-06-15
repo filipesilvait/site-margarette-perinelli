@@ -24,6 +24,8 @@ main {
     color: #D6DCD8;
 }
 
+
+
 h1 { 
     font-family: 'Aukim Light', sans-serif;
     font-weight: bold;
@@ -36,14 +38,14 @@ h2 {
     color: #926F34;
     font-weight: bold;
     font-size: 30px;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 p {
     font-family: 'Aukim Light', sans-serif;
     font-weight: bold;
     font-size: 21px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 
