@@ -24,8 +24,6 @@ main {
     color: #D6DCD8;
 }
 
-
-
 h1 { 
     font-family: 'Aukim Light', sans-serif;
     font-weight: bold;
@@ -47,7 +45,6 @@ p {
     font-size: 21px;
     padding: 20px;
 }
-
 
 .container {
     padding: 0 20px;
