@@ -28,7 +28,6 @@ h1 {
     font-family: 'Aukim Light', sans-serif;
     font-weight: bold;
     font-size: 27px;
-    padding: 10px;
 }
 
 h2 {
@@ -46,6 +45,14 @@ p {
     padding: 20px;
 }
 
+ul {
+    list-style-type: none;
+  }
+
+.custom-index a {
+    color: #D6DCD8;
+}
+  
 .container {
     padding: 0 20px;
     margin: 0 auto;
